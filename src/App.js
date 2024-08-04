@@ -2,11 +2,11 @@ import React from 'react';
 // import 'primereact/resources/themes/lara-light-indigo/theme.css';
 // import 'primereact/resources/themes/bootstrap4-light-blue/theme.css'
 // import 'primereact/resources/themes/bootstrap4-light-purple/theme.css'
-import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css'
+// import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css'
 // import 'primereact/resources/themes/bootstrap4-dark-purple/theme.css'
 // import 'primereact/resources/themes/md-light-indigo/theme.css'
 // import 'primereact/resources/themes/md-light-deeppurple/theme.css'
-// import 'primereact/resources/themes/md-dark-indigo/theme.css'
+import 'primereact/resources/themes/md-dark-indigo/theme.css'
 // import 'primereact/resources/themes/md-dark-deeppurple/theme.css'
 // import 'primereact/resources/themes/mdc-light-indigo/theme.css'
 // import 'primereact/resources/themes/mdc-light-deeppurple/theme.css'
@@ -26,12 +26,16 @@ import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css'
 
 import 'primereact/resources/primereact.min.css';
 import Navbar from './components/Navbar';
+import Services from './components/Services';
+// import Gallery from './components/Gallery';
 
 function App() {
   return (
     
       <div className="App">
-        <Navbar/>
+        <Navbar />
+        {/* <Gallery/> */}
+        <Services />
       </div>
    
   );
